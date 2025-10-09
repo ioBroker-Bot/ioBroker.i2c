@@ -205,7 +205,6 @@
         "os": [
             "linux"
         ],
-        "main": "build/main.js",
         "icon": "i2c.png",
         "enabled": true,
         "extIcon": "https://raw.githubusercontent.com/UncleSamSwiss/ioBroker.i2c/master/admin/i2c.png",
