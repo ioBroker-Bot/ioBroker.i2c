@@ -52,7 +52,7 @@
   "engines": {
     "node": ">=20"
   },
-  "os-xxx": [
+  "os": [
     "linux"
   ],
   "dependencies": {
