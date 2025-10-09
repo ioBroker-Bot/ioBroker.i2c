@@ -20,6 +20,7 @@
   "homepage": "https://github.com/UncleSamSwiss/ioBroker.i2c",
   "license": "Apache-2.0",
   "keywords": [
+    "ioBroker",
     "I2C",
     "Adafruit STEMMA Soil Sensor",
     "ADS1015",
@@ -49,7 +50,7 @@
     "url": "https://github.com/UncleSamSwiss/ioBroker.i2c"
   },
   "engines": {
-    "node": ">=18"
+    "node": ">=20"
   },
   "os-xxx": [
     "linux"
@@ -118,6 +119,7 @@
     "test:unit": "mocha test/unit --exit",
     "test:integration": "mocha test/integration --exit",
     "test": "npm run test:ts && npm run test:package",
+    "check": "tsc --noEmit",
     "lint": "eslint --ext .ts,.tsx src/ admin/src/",
     "translate": "translate-adapter",
     "release": "release-script"
