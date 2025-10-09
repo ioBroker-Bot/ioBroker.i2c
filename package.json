@@ -49,9 +49,9 @@
     "url": "https://github.com/UncleSamSwiss/ioBroker.i2c"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=18"
   },
-  "os": [
+  "os-xxx": [
     "linux"
   ],
   "dependencies": {
