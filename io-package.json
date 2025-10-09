@@ -158,6 +158,7 @@
             "it": "I2C",
             "es": "I2C",
             "pl": "I2C",
+            "uk": "I2C",
             "zh-cn": "I2C"
         },
         "desc": {
@@ -170,6 +171,7 @@
             "it": "Comunica con i dispositivi tramite bus I2C.",
             "es": "Se comunica con dispositivos a través del bus I2C.",
             "pl": "Komunikuje się z urządzeniami przez magistralę I2C.",
+            "uk": "\"Зв'язується з пристроями через шину I2C.",
             "zh-cn": "通过I2C总线与设备通信。"
         },
         "authors": [
