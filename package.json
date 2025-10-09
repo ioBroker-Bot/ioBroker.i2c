@@ -20,6 +20,7 @@
   "homepage": "https://github.com/UncleSamSwiss/ioBroker.i2c",
   "license": "Apache-2.0",
   "keywords": [
+    "ioBroker",
     "I2C",
     "Adafruit STEMMA Soil Sensor",
     "ADS1015",
