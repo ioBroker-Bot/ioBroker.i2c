@@ -151,7 +151,7 @@
         "connectionType": "local",
         "dataSource": "poll",
         "adminUI": {
-            "config": "materialize",
+            "config": "materialize"
         },
         "dependencies": [
             {
