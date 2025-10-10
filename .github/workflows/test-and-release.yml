@@ -43,7 +43,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        node-version: [20.x, 22.x] ##[20.x, 22.x, 24.x]
+        node-version: [20.x, 22.x, 24.x]
         os: [ubuntu-latest]
 
     steps:
@@ -96,4 +96,5 @@ jobs:
 #          sentry-sourcemap-paths: "build/"
 #          # If your sentry project is linked to a GitHub repository, you can enable the following option
 #          # sentry-github-integration: true
+
 
