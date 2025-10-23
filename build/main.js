@@ -67,6 +67,7 @@ class I2cAdapter extends utils.Adapter {
      */
     onReady() {
         return __awaiter(this, void 0, void 0, function* () {
+            var _a;
             const allStates = yield this.getStatesAsync('*');
             for (const id in allStates) {
                 if (allStates[id] && allStates[id].ack) {
@@ -89,7 +90,7 @@ class I2cAdapter extends utils.Adapter {
                     continue;
                 }
                 try {
-                    const module = yield Promise.resolve().then(() => require(__dirname + '/devices/' + deviceConfig.type.toLowerCase()));
+                    const module = yield (_a = __dirname + '/devices/' + deviceConfig.type.toLowerCase(), Promise.resolve().then(() => require(_a)));
                     const handler = new module.default(deviceConfig, this);
                     this.deviceHandlers.push(handler);
                 }
